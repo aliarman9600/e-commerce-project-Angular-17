@@ -1,0 +1,17 @@
+.search-bar {
+    width: 100%;
+    
+  }
+  
+  input[matInput] {
+    padding-right: 20px; /* Ensures space for the search icon */
+  }
+  
+  mat-form-field {
+    border-color: purple;
+  }
+  
+  mat-icon {
+    cursor: pointer;
+  }
+  

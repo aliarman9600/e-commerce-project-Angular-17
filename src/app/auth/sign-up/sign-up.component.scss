@@ -1,0 +1,65 @@
+.bg-main {
+    background: linear-gradient(135deg, rgb(245, 245, 248) 22px, rgba(0, 0, 0, .04) 22px, rgba(0, 0, 0, .04) 24px, transparent 24px, transparent 67px, rgba(0, 0, 0, .04) 67px, rgba(0, 0, 0, .04) 69px, transparent 69px), linear-gradient(225deg, rgb(245, 245, 248) 22px, rgba(0, 0, 0, .04) 22px, rgba(0, 0, 0, .04) 24px, transparent 24px, transparent 67px, rgba(0, 0, 0, .04) 67px, rgba(0, 0, 0, .04) 69px, transparent 69px) 0 64px;
+    background-color: rgb(245, 245, 248);
+    background-size: 64px 128px;
+    // padding-bottom: 2.5rem;
+    // height: 100vh;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+
+.mat-card-img {
+    padding: 46px 15px;
+}
+
+.mat-card-one {
+    width: 60rem;
+    // margin: auto; 
+    // padding-bottom: 1rem;
+    // position: relative;
+    // top: 1.5rem;
+    // display: block;
+    height: 40rem;
+}
+
+.image {
+    width: 100%;
+    background-image: url(../../../assets/Login-pic/brunette.jpg);
+    height: 34rem;
+    background-size: cover;
+    background-position: center;
+    // margin-right: 17px;
+    border-radius: 15px;
+}
+
+.p-content {
+    color: white;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+
+@media (max-width: 991px) {
+    .bng {
+        display: none;
+    }
+
+    .mat-card-one {
+        width: 90%;
+        padding-bottom: 30px;
+    }
+
+    .image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .mat-card-one {
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,71 @@
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand " routerLink="/">Exclusive</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body align-items-center">
+                <ul class="navbar-nav justify-content-center align-content-center flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/signup">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/login">Login</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" routerLink=""  role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" routerLink="" >Action</a></li>
+                            <li><a class="dropdown-item" routerLink="" >Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" routerLink="" >Something else here</a></li>
+                        </ul>
+                    </li> -->
+                    <div class="d-flex mt-2 align-items-center">
+
+                        <div class="d-flex gap-5">
+                            <!-- <mat-form-field class="search-bar gap-3">
+                                <input matInput placeholder="What are you looking for?">
+                                <button mat-icon-button matSuffix>
+                                    <mat-icon>search</mat-icon>
+                                </button>
+                            </mat-form-field> -->
+                            <mat-form-field class="d-grid search-bar gap-3" appearance="outline">
+                                <input class="" matInput placeholder="What are you looking for?">
+                                <mat-icon class="text-primary" matPrefix>search</mat-icon>
+
+                            </mat-form-field>
+                        </div>
+
+                        <div class="d-flex">
+                            <mat-icon>favorite</mat-icon>
+                            <mat-icon>shopping_cart</mat-icon>
+                        </div>
+                    </div>
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+</nav>
